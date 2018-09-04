@@ -1,3 +1,5 @@
+Sebastian Lozano- Andres Gaviria
+
 /////punto 1//////////
 package punto_1;
 import java.util.Scanner;
@@ -64,4 +66,75 @@ class punto_2 {
 		
 	}
 
+}
+////////////////////punto 3 /////////////////////
+
+package punto_3;
+import java.util.Scanner;
+public class punto_3 {
+
+	public static void main(String[] args) {
+	Scanner sc = new Scanner (System.in);
+	
+	String nombre;
+	int ht, sh, he, tipo, sueldo;
+	double salario_minimo = 781242;
+	double salario_final;
+	
+	System.out.println("Ingrese nombre: ");
+	nombre = sc.nextLine();
+	System.out.println("Ingrese horas trabajadas: ");
+	ht = sc.nextInt();
+	if(ht>48) {
+	System.out.println("No se puede trabajar mas de 48 horas ");
+	}else {
+	
+	System.out.println("Ingrese sueldo por hora: ");
+	sh = sc.nextInt();
+	System.out.println("Ingrese las horas extras laboradas: ");
+	he = sc.nextInt();
+	System.out.println("Ingrese el tipo de las horas extras laboradas:  1. Diurna 2. Nocturna 3. Dominical 4. Festivos 0. Ninguna");
+	tipo = sc.nextInt();
+
+		switch(tipo) {
+			case 1:
+			sueldo = he * 4069;
+			salario_final = salario_minimo + sueldo;
+			System.out.println("Nombre: "+nombre);
+			System.out.println("Horas trabajadas: "+ht);
+			System.out.println("Sueldo por hora: "+sh);
+			System.out.println("Horas extras laboradas: "+he);
+			System.out.println("Tipo de horas extras laboradas: "+tipo);
+			System.out.println("Sueldo: "+salario_final);
+		break;
+			case 2:
+			sueldo = he * 5697;
+			salario_final = salario_minimo + sueldo;
+			System.out.println("Nombre: "+nombre);
+			System.out.println("Horas trabajadas: "+ht);
+			System.out.println("Sueldo por hora: "+sh);
+			System.out.println("Horas extras laboradas: "+he);
+			System.out.println("Tipo de horas extras laboradas: "+tipo);
+			System.out.println("Sueldo: "+salario_final);
+		break;
+			case 3:
+			sueldo = he * 6510;
+			salario_final = salario_minimo + sueldo;
+			System.out.println("Nombre: "+nombre);
+			System.out.println("Horas trabajadas: "+ht);
+			System.out.println("Sueldo por hora: "+sh);
+			System.out.println("Horas extras laboradas: "+he);
+			System.out.println("Tipo de horas extras laboradas: "+tipo);
+			System.out.println("Sueldo: "+salario_final);
+			break;
+			case 4:
+			sueldo = he * 8138;
+			salario_final = salario_minimo + sueldo;
+			System.out.println("Nombre: "+nombre);
+			System.out.println("Horas trabajadas: "+ht);
+			System.out.println("Sueldo por hora: "+sh);
+			
+		}
+		}
+	}
 }
