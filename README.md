@@ -1,7 +1,9 @@
 Sebastian Lozano- Andres Gaviria
 
 /////punto 1//////////
+
 package punto_1;
+
 import java.util.Scanner;
 
 	public class punto_1 {
@@ -47,7 +49,9 @@ import java.util.Scanner;
 }
 
 /////////////////punto 2 /////////////////// 
+
 package punto_2;
+
 import java.util.Scanner;
 
 class punto_2 {
@@ -70,7 +74,9 @@ class punto_2 {
 ////////////////////punto 3 /////////////////////
 
 package punto_3;
+
 import java.util.Scanner;
+
 public class punto_3 {
 
 	public static void main(String[] args) {
